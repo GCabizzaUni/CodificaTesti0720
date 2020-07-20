@@ -727,6 +727,13 @@
             <br/></p>
     </xsl:template>
 
+<xsl:template match="tei:idno[@xml:id='numCatalogo']">
+		<p id="numCatalogo"><b>
+			<xsl:text>Numero di catalogazione: </xsl:text>
+		</b>
+		<xsl:apply-templates/>
+		<br/></p>
+</xsl:template>
     
     
     

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE teiCorpus SYSTEM "Codifica_Cartoline.dtd">
+<?xml-stylesheet type="text/xsl" href="stilecartoline.xsl"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:id="teiHeader">
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titleMain">Progetto Cartoline Storiche</title>
+				<respStmt xml:id="resp0_1">
+					<resp>Trascrizione a cura di</resp>
+					<name type="person" xml:id="GC1">Gianmario Cabizza</name>
+				</respStmt>
+				<respStmt xml:id="resp0_2">
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="CSP">Comune di <name ref="#SP">La Spezia</name></name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition xml:id="edit">
+					Università di Pisa, Informatica Umanistica
+					<date when="2018">2018</date>
+				</edition>
+				<respStmt xml:id="resp0_3">
+					<resp>Codifica a cura di</resp>
+					<name type="person" xml:id="TC">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt xml:id="resp0_4">
+					<resp>Compilatore</resp>
+					<name ref="#TC">Tommaso Castagneto</name>
+					<name ref="#GC1">Gianmario Cabizza</name>
+				</respStmt>
+				<respStmt xml:id="resp0_5">
+					<resp>Responsabile scientifico</resp>
+					<name type="person" xml:id="GP">Giacomo Paolicchi</name>
+					<name type="person" xml:id="ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt xml:id="resp0_6">
+					<resp>Funzionario responsabile</resp>
+					<name type="person" xml:id="ER">E. Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt xml:id="pub">
+				<publisher>Unipi</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2020">2020</date>
+				<distributor>LabCD</distributor>
+				<address xml:id="lab">
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa,</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt xml:id="none1">
+				<note/>
+			</notesStmt>
+			<sourceDesc xml:id="none">
+				<p />
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<!--inclusione file esterni-->
+	
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina1.xml">
+		<xi:fallback />
+	</xi:include>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina53.xml">
+		<xi:fallback />
+	</xi:include>
+	
+	
+	<!--_____________________-->
+
+</teiCorpus>
